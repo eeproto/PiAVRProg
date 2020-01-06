@@ -1,0 +1,15 @@
+[Unit]
+Description=Pi AVR Programmer
+DefaultDependencies=no
+After=local-fs.target
+ 
+[Service]
+Type=simple
+User=root
+ExecStart=/var/lib/piavr/bin/python /var/lib/piavr/PiAVRProg/software/scripts/programmer.py
+WorkingDirectory=/var/lib/piavr
+StandardOutput=syslog
+StandardError=syslog
+ 
+[Install]
+WantedBy=local-fs.target

@@ -1,0 +1,30 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,MFR,Comment,Category,Status,Family,Digi-Key_PN,DK_Datasheet_Link,DK_Detail_Page,Manufacturer
+1,Unpolarized capacitor,C,C1 C2 C3 C4 C5,0.1uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,5,~,885012207128,Wurth Elektronik,,,,,,,,
+2,Unpolarized capacitor,C,C6,10uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,885012107014,Wurth Elektronik,,,,,,,,
+3,Bidirectional transient-voltage-suppression diode,D_TVS,D8 D9,D_TVS,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,~,CG0603MLE-18E,Bourns Inc.,,,,,,,,
+4,Light emitting diode,LED,D1 D3 D5 D7,GREEN,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,4,~,LTST-S220GKT LTST-S220EKT,Lite-On,Power Fuse Pass Flash Pass Ready,,,,,,,
+5,Light emitting diode,LED,D4 D6,RED,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,LTST-S220EKT,Lite-On,Fuse Fail Flash Fail,,,,,,,
+6,Light emitting diode,LED,D2,YELLOW,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,LTST-S220KSKT,Lite-On,Programming,,,,,,,
+7,,OX40HAT-raspberrypi_hat,J1,40HAT,PinSocket_2x20_P2.54mm_Vertical,1,,SSW-120-01-T-D,Samtec Inc.,,,,,,,,
+8,Resistor,R,R1 R2 R3 R4 R5 R6 R7,100,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,7,~,RC0805FR-07100RL,Yageo,,,,,,,,
+9,Resistor,R,R8,10k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,RC0805FR-0710KL,Yageo,,,,,,,,
+10,SWITCH TACTILE SPST-NO 0.05A 24V,B3F-1000,S1,B3F-1000,Switch_Tactile_THT_B3F-1xxx,1,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf,B3F-1000,Omron Electronics Inc-EMC Div,Shut Down,Switches,Active,Tactile Switches,SW400-ND,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf,/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150,Omron Electronics Inc-EMC Div
+11,Single Pole Single Throw (SPST) switch,SW_SPST,SW2,MOM,OmronB3J1100,1,~,B3J-1100,Omron Electronics Inc-EMC Div,Go!,,,,,,,
+12,Quad Analog Switches,4066,U1,4066,TSSOP-14_4.4x5mm_P0.65mm,1,http://www.ti.com/lit/ds/symlink/cd4066b.pdf,"74LVC4066PW,118",Nexperia USA Inc.,,,,,,,,
+13,"20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28",ATmega328P-PU,U2,ATmega328P-PU,DIL28-3-ZIF_SOCKET,1,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf,28-3551-10,Aries Electronics,,,,,,,,
+
+
+
+
+
+Component Groups:,13
+Component Count:,28
+Fitted Components:,28
+Number of PCBs:,1
+Total components:,28
+Schematic Version:,1.1
+Schematic Date:,2020-01-02
+PCB Variant:,[u'default']
+BoM Date:,Mon 06 Jan 2020 12:44:06 PM EST
+Schematic Source:,/home/christian/archiv/clients/open source/piavr/PiAVRProg/hardware/PiAVRProg/PiAVRProg.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1

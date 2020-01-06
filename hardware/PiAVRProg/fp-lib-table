@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name project_footprints)(type KiCad)(uri "$(KIPRJMOD)/project_footprints.pretty")(options "")(descr ""))
+  (lib (name OmronB3J1100)(type KiCad)(uri ${KIPRJMOD}/OmronB3J1100.pretty)(options "")(descr ""))
+  (lib (name logo_eeproto_72)(type KiCad)(uri ${GITLIBS}/kicad-ch/footprints/logo_eeproto_72.pretty)(options "")(descr ""))
+)

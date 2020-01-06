@@ -1,12 +1,88 @@
+# generic gitignore template
+# modify as needed
+#
+
+####################
+# Project Specific
+####################
+backup
+rescue-backup
+
+####################
+# Python
+####################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Sphinx docs:
+build
+
+# SQLite3 database files:
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs:
+*.log
+
+# Environment variables
+# *.env
+
+####################
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+####################
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.sch-bak
 *~
 _autosave-*
 *.tmp
@@ -23,4 +99,50 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+
+####################
+# Eclipse
+####################
+.project
+.pydevproject
+.settings
+
+####################
+# Linux Editors
+####################
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+
+# Rope
+.ropeproject
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+####################
+# Mac
+####################
+.DS_Store
+._*
+
+####################
+# Windows
+####################
+Thumbs.db
+Desktop.ini
