@@ -1,4 +1,4 @@
-# PiAVRHat
+# Standalone AVR Programmer
 Raspberry Pi based standalone ZIF Socket AVR Programmer
 
 Program AVR chips with one click of a button:
