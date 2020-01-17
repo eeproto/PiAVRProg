@@ -74,7 +74,7 @@ class PiProgrammer(object):
     def load_firmware(self):
         device = {}
         try:
-            logging.info('reading device configuration from %s', DEVICE_FILE_PATH)
+            logging.debug('reading device configuration from %s', DEVICE_FILE_PATH)
             with open(DEVICE_FILE_PATH, 'r') as f:
                 device = json.load(f)
             device_ok = (len(set(device.keys()) & set(DEVICE_KEYS)) == len(DEVICE_KEYS))
