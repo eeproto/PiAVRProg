@@ -5,7 +5,7 @@ Program AVR chips with one click of a button:
 
 ![](assets/program.gif)
 
-Project Home Page: [https://www.eeproto.com/os/piavr](https://www.eeproto.com/os/piavr)
+Project Home Page: [https://eeproto.com/portfolio/avr-programmer/](https://eeproto.com/portfolio/avr-programmer/)
 
 # Purpose
 
