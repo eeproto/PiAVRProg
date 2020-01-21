@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 70)
+    (drawings 71)
     (tracks 243)
     (zones 0)
     (modules 34)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.508)
     (trace_clearance 0.1524)
@@ -1507,13 +1507,14 @@
       (xy 0.4191 0.20574) (xy 0.35814 0.29972) (xy 0.27686 0.37592) (xy 0.1778 0.4318)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_circle (center 135.636 82.804) (end 135.89 83.058) (layer F.SilkS) (width 0.15))
   (gr_text eeproto.com (at 130.175 110.49 270) (layer F.SilkS) (tstamp 5E09B3FC)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
   (gr_text "CC-BY-SA 4.0 https://github.com/eeproto/PiAVRProg" (at 120.015 115.57) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)))
   )
-  (gr_text "Rev. 1.0" (at 141.224 105.918 270) (layer F.SilkS)
+  (gr_text "Rev. 1.1" (at 141.224 105.918 270) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify right))
   )
   (gr_text "Standalone AVR Programmer" (at 141.605 83.82 270) (layer F.SilkS)
